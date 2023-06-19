@@ -1,84 +1,99 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Donut WebUI</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-    * {
-      box-sizing: border-box;
-    }
-    .menu {
-      float: left;
-      width: 10%;
-    }
-    .menuitem {
-      padding: 5px;
-      margin-top: 4px;
-      border-bottom: 1px solid #f1f1f1;
-    }
-    .main {
-      float: left;
-      width: 40%;
-      padding: 0 10px;
-      overflow: hidden;
-    }
-    .right {
-      background-color: lightblue;
-      float: right;
-      width: 20%;
-      padding: 10px 15px;
-      margin-top: 7px;
-    }
-    
-    @media only screen and (max-width:800px) {
-      /* For tablets: */
-      .main {
-        width: 80%;
-        padding: 0;
-      }
-      .right {
-        width: 100%;
-      }
-    }
-    @media only screen and (max-width:500px) {
-      /* For mobile phones: */
-      .menu, .main, .right {
-        width: 100%;
-      }
-    }
-    </style>
-  </head>
-  <body style="font-family:Verdana;">
+<html lang="en">
+<head>
+<title>DonutWebUI23 | DonutOS BeggorraBear 1.1</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>DonutOS | Home</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">System</a></li>
+      <li><a href="#">Apps</a></li>
+    </ul>
+  </nav>
   
-  <div style="background-color:#f1f1f1;padding:15px;">
-    <h1>Donut WebUI 2023 <sup>BETA</sup></h1>
-  </div>
-  
-  <div style="overflow:auto">
-    <div class="menu">
-      <div class="menuitem">Home</div>
-      <div class="menuitem">Settings</div>
-      <div class="menuitem">•</div>
-      <div class="menuitem">•</div>
-    </div>
-  
-    <div class="main">
-      <h2>Home</h2>
-      <p>Home will be fully functional after Beta 7</p>
-    </div>
-  
-    <div class="right">
-      <h2>Date & Time</h2>
-      <p>••••••••••••••••••••••••••••••••</p>
-      <h2>Operating System</h2>
-      <p>DonutOS BeggorraBear 1.1</p>
-      <h2>UI</h2>
-      <p>Donut WebUI 2023</p>
-    </div>
-  </div>
-  
-  
-  <div style="background-color:#f1f1f1;text-align:center;padding:10px;margin-top:7px;font-size:12px;"> Donut Software by Gautham Nair</div>
-  
-  </body>
+  <article>
+    <h1>Note!</h1>
+    <p>The System will be functional after Beta 7 Update</p>p>
+  </article>
+</section>
+
+<footer>
+  <p>Donut Open Source Software Project - <b>Gautham Nair</b></p>
+</footer>
+
+</body>
 </html>
+
