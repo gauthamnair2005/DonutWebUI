@@ -3,6 +3,12 @@ Web User Interface for Donut System
 
 ## Changelog:
 
+### Introducing Update 5 for WebUI:
+* Removed Desktop pictures
+* Added clock in desktop\
+* Introducing DWUI App, eg: Browser
+* Updated Classic App, eg: Games
+
 ### Introducing 2K23 R2 Core Base System Update and Update 4 for WebUI:
 * Updated Desktop to show multiple pictures
 * Introducing Donut Browser Codename Mavara Para
