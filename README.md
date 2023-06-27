@@ -5,7 +5,7 @@ Web User Interface for Donut System
 
 ### Introducing Update 6 for WebUI:
 * Fixed many bugs
-* Updated clock app to DWUI App
+* Updated games app to DWUI App
 
 ### Introducing Update 5 for WebUI:
 * Removed Desktop pictures
