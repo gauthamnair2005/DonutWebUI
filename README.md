@@ -3,7 +3,7 @@ Web User Interface for Donut System
 
 ## Changelog:
 
-### Introducing Update 6.1 for WebUI:
+### Introducing Update 6.2 for WebUI:
 * Finalized the release name, i.e, DonutWebUI MP
 * Fixed many bugs
 
