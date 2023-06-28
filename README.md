@@ -3,7 +3,11 @@ Web User Interface for Donut System
 
 ## Changelog:
 
-### Introducing Update 6.1 (Gaming Update) from WebUI:
+### Introducing Update 6.1 for WebUI:
+* Finalized the release name, i.e, DonutWebUI MP
+* Fixed many bugs
+
+### Introducing Update 6.1 (Gaming Update) for WebUI:
 * Introducing Games App for WebUI
 * Includes Tetris game by FRADAR, and Table Tennis 2D by E and T Software
 
