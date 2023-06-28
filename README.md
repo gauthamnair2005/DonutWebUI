@@ -3,6 +3,10 @@ Web User Interface for Donut System
 
 ## Changelog:
 
+### Introducing Update 6.1 (Gaming Update) from WebUI:
+* Introducing Games App for WebUI
+* Includes Tetris game by FRADAR
+
 ### Introducing Update 6 for WebUI:
 * Fixed many bugs
 * Updated games app to DWUI App
