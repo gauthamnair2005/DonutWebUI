@@ -72,8 +72,8 @@ body {font-family: Arial;}
   <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
   <h1>System</h1>
   <h1>📀</h1><p><b>Donut</b>WebUI<sup>Codename Mavara Para</sup></p>
-  <p>Update 6 2K23 R2</p>
-  <code>2023.06.27.12.05.lab0.dwui.donut.ggn</code>
+  <p>Update 6.1 2K23 R2</p>
+  <code>2023.06.28.10.26.lab0.dwui.donut.ggn</code>
   <code>DonutOS Web 1.1 BB R2</code>
   <code>DHTMLK v23.06.27.256+</code>
   <a style="text-decoration:none;" href="index.html"><button>Check for Updates/Upgrades</button></a>
@@ -101,7 +101,7 @@ function openMenu(evt, tabName) {
   evt.currentTarget.className += " active";
 }
 
-// Get the element with id="defaultOpen" and click on it
+
 document.getElementById("defaultOpen").click();
 </script>
 <script type="text/javascript">
@@ -110,12 +110,12 @@ document.getElementById("defaultOpen").click();
     function clock() {
         var date = new Date();
 
-        // Replace '400px' below with where you want the format to change.
+        
         if (window.matchMedia('(max-width: 400px)').matches) {
-            // Use this format for windows with a width up to the value above.
+            
             clockElement.textContent = date.toLocaleString();
         } else {
-            // While this format will be used for larger windows.
+            
             clockElement.textContent = date.toString();
         }
     }
