@@ -3,6 +3,10 @@ Web User Interface for Donut System
 
 ## Changelog:
 
+### Introducing Update 6.3 (Pre-Stabilization Update 1) for WebUI:
+* Fixed many bugs, improved for devices with smaller screens
+* Finalized stabilization with Update 7
+
 ### Introducing Update 6.2 for WebUI:
 * Finalized the release name, i.e, DonutWebUI MP
 * Fixed many bugs
