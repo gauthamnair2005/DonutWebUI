@@ -3,6 +3,10 @@ Web User Interface for Donut System
 
 ## Changelog:
 
+### Introducing Update 6.5 (Pre-Stabilization Update 2) for WebUI:
+* Updated Interface
+* Fixed known bugs
+
 ### Introducing Update 6.4 for WebUI:
 * Fixed known bugs
 * Updated Browser

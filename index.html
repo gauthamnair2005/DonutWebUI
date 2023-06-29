@@ -4,6 +4,31 @@
 <title>Donut WebUI MP  | DonutOS Web 1.1 BB</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+  .collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 30%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+* {
+  box-sizing: border-box;
+}
 body {font-family: Arial;}
 /* Style the tab */
 .tab {
@@ -74,8 +99,13 @@ body {font-family: Arial;}
   <h1>📀</h1><p><b>Donut</b>WebUI<sup>MP</sup></p>
   <p><img src="2021-04-16.jpg" alt="Mavara Para" width="100" height="100"></p>
   <p>Mavara Para</p>
-  <p>Update 6.4 2K23 R2</p>
-  <p><code>2023.06.29.16.20.lab0.dwui.donut.ggn</code> <code>DonutOS Web 1.1 BB R2</code> <code>DHTMLK v23.06.27.256+</code></p>
+  <p>Update 6.5 2K23 R2</p>
+  <p><code>Build 2306.29</code> <code>DonutOS Web 1.1 BB R2</code> <code>DHTMLK v23.06.27.256+</code></p>
+  <button type="button" class="collapsible">What's New?</button>
+  <div class="content">
+  <p>1. Updated Interface</p>
+  <p>2. Fixed known bugs</p>
+  </div>
   <p><a style="text-decoration:none;" href="index.html"><button>Check for Updates/Upgrades</button></a></p>
   <p>Developed by Gautham Nair</p>
 </div>
@@ -122,6 +152,21 @@ document.getElementById("defaultOpen").click();
 
     setInterval(clock, 1000);
 </script>
-   
+<script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+  
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.display === "block") {
+        content.style.display = "none";
+      } else {
+        content.style.display = "block";
+      }
+    });
+  }
+  </script>  
 </body>
 </html> 
