@@ -3,6 +3,10 @@ Web User Interface for Donut System
 
 ## Changelog:
 
+### Introducing Update 6.7 (Pre-Stabilization Update 3) for WebUI:
+* Fixed known bugs
+* Fixed Donut WVM start error due to broken link
+
 ### Introducing Update 6.6 for WebUI:
 * Added new app, Donut WVM (Copy v86)
 * Fixed known bugs
