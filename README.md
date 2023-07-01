@@ -3,6 +3,9 @@ Web User Interface for Donut System
 
 ## Changelog:
 
+### Introducing Update 7 (Public Stable Release) for WebUI:
+* Fully stable system
+
 ### Introducing Update 6.9 (Release Preview) for WebUI:
 * Stable and preview released
 * Almost stable, there can be only a very few unimportant bugs
