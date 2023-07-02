@@ -3,6 +3,10 @@ Web User Interface for Donut System
 
 ## Changelog:
 
+## Introducing Update 2 for Kochi:
+* DWUI App Framewwork 2
+* Added resources View
+
 ### Introducing WebUI Codename Kochi Beta 2k23 R3:
 * Beta version, contains few bugs
 
