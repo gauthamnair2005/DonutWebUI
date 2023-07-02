@@ -3,6 +3,9 @@ Web User Interface for Donut System
 
 ## Changelog:
 
+### Introducing Update 2 for WebUI 2K23 R3:
+* Introducing Universal Transparency update
+
 ### Introducing Update 1 for WebUI 2K23 R3:
 * Updated User Interface
 * Updates Apps View
