@@ -3,6 +3,10 @@ Web User Interface for Donut System
 
 ## Changelog:
 
+### Introducing Update 1 for WebUI 2K23 R3:
+* Updated User Interface
+* Updates Apps View
+
 ### Introducing 2K23 R3 Core Base System Update:
 * Uses entirely new and beautiful interface
 * Blur effect (Only for Desktop)
