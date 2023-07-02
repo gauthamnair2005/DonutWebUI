@@ -3,6 +3,9 @@ Web User Interface for Donut System
 
 ## Changelog:
 
+### Introducing WebUI Codename Kochi Beta 2k23 R3:
+* Beta version, contains few bugs
+
 ### Introducing Update 2 for WebUI 2K23 R3:
 * Introducing Universal Transparency update
 
