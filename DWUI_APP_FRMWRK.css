@@ -1,0 +1,172 @@
+/* Donut Web User Interface Application Framework */ 
+/* Version 3 */
+.btn {
+    cursor: pointer;
+    border: 1px solid #3498db;
+    background-color: transparent;
+    height: 200px;
+    width: 200px;
+    color: #3498db;
+    font-size: 1.5em;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+}
+.btn2 {
+    cursor: pointer;
+    border: 1px solid #3498db;
+    background-color: transparent;
+    color: #3498db;
+    font-size: 0.2.Sem;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+}
+body, html {
+height: 100%;
+}
+
+* {
+box-sizing: border-box;
+}
+
+.bg-image {
+/* The image used */
+background-image: url("1034623-kochi-kerala-blues-back-water-lagoons-sunset-beach-ship-channels-chinese-nets-skyscraper-water-city-15.jpg");
+
+/* Add the blur effect */
+filter: blur(8px);
+-webkit-filter: blur(8px);
+
+/* Full height */
+height: 100%;
+
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+background-color: rgb(0,0,0); /* Fallback color */
+background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+color: white;
+font-weight: normal;
+border: 3px solid #f1f1f1;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+z-index: 2;
+width: 100%;
+padding: 20px;
+text-align: center;
+}
+.collapsible {
+background-color: transparent;
+color: white;
+cursor: pointer;
+padding: 10px;
+width: 30%;
+border: none;
+text-align: center;
+outline: none;
+font-size: 20px;
+}
+
+.active, .collapsible:hover {
+background-color: #555;
+}
+
+.content {
+padding: 0 18px;
+display: none;
+overflow: hidden;
+background-color: transparent;
+}
+* {
+box-sizing: border-box;
+}
+body {font-family: Arial;}
+/* Style the tab */
+.tab {
+overflow: hidden;
+border: 1px solid #ccc;
+background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+background-color: inherit;
+float: left;
+border: none;
+outline: none;
+cursor: pointer;
+padding: 14px 16px;
+transition: 0.3s;
+font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+display: none;
+padding: 6px 12px;
+border: 1px solid #ccc;
+border-top: none;
+}
+
+/* Style the close button */
+.topright {
+float: right;
+cursor: pointer;
+font-size: 28px;
+}
+
+.topright:hover {color: red;}
+* {
+box-sizing: border-box;
+}
+
+.menu {
+float: left;
+width: 20%;
+text-align: center;
+}
+
+.menu a {
+background-color: #e5e5e5;
+padding: 8px;
+margin-top: 7px;
+display: block;
+width: 100%;
+color: black;
+}
+
+.main {
+float: left;
+width: 60%;
+padding: 0 20px;
+}
+
+.right {
+background-color: #e5e5e5;
+float: left;
+width: 20%;
+padding: 15px;
+margin-top: 7px;
+text-align: center;
+}
+
+@media only screen and (max-width: 620px) {
+/* For mobile phones: */
+.menu, .main, .right {
+width: 100%;
+}
+}

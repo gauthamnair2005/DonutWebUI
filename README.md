@@ -3,6 +3,10 @@ Web User Interface for Donut System
 
 ## Changelog:
 
+### Introducing Update 4 for Kochi:
+* Fixed many bugs
+* DWUI App Framework 3
+
 ### Introducing Update 3 for Kochi:
 * Fixed many bugs
 * Added Friv online games
