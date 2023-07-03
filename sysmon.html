@@ -1,0 +1,43 @@
+<html>
+
+<body>
+  <canvas id="glcanvas" width="0" height="0"></canvas>
+  <script>
+    var performance = window.performance || window.mozPerformance || window.msPerformance || window.webkitPerformance || {};
+
+    const performanceKeys = [];
+    for (var value in performance) {
+      performanceKeys.push(value);
+    }
+    document.write("<br>");
+    document.write(performanceKeys.sort().map((p) => '<a href="https://developer.mozilla.org/en-US/docs/Web/API/Performance/' + p + '">' + p + "</a>").join("<br>"));
+    document.write("<br>");
+
+    document.write("<br><br><br>");
+
+    var canvas;
+    canvas = document.getElementById("glcanvas");
+    var gl = canvas.getContext("experimental-webgl");
+
+    document.write(gl.getParameter(gl.RENDERER) + "<br>");
+    document.write(gl.getParameter(gl.VENDOR) + "<br>");
+    document.write(getUnmaskedInfo(gl).vendor + "<br>");
+    document.write(getUnmaskedInfo(gl).renderer + "<br>");
+
+
+    function getUnmaskedInfo(gl) {
+      var unMaskedInfo = {
+        renderer: '',
+        vendor: ''
+      };
+
+      var dbgRenderInfo = gl.getExtension("WEBGL_debug_renderer_info");
+      if (dbgRenderInfo != null) {
+        unMaskedInfo.renderer = gl.getParameter(dbgRenderInfo.UNMASKED_RENDERER_WEBGL);
+        unMaskedInfo.vendor = gl.getParameter(dbgRenderInfo.UNMASKED_VENDOR_WEBGL);
+      }
+
+      return unMaskedInfo;
+    }
+  </script>
+</body>

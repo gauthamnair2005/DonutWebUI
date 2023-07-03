@@ -3,6 +3,12 @@ Web User Interface for Donut System
 
 ## Changelog:
 
+### Introducing Update 5 for Kochi:
+* Finalized release name, "Harmony"
+* Rolled back online game feature
+* Added System Monitor in Resources
+* Expected to Update to Stable release by update 6 to Harmony
+
 ### Introducing Update 4 for Kochi:
 * Fixed many bugs
 * DWUI App Framework 3
