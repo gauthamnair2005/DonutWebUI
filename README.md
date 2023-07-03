@@ -3,6 +3,9 @@ Web User Interface for Donut System
 
 ## Changelog:
 
+### Introducing Update 2 for Donut WebUI Harmony 2K23 R3:
+* Fixed known bugs
+
 ### Introducing Update 1 for Donut WebUI Harmony 2K23 R3:
 * Fixed known bugs
 * Security Checks done
