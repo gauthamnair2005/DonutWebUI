@@ -3,8 +3,9 @@ Web User Interface for Donut System
 
 ## Changelog:
 
-<<<<<<< Updated upstream
-=======
+### Introducing Beta 2 for WebUI 2K23 R4
+* Updated App Environment
+
 ### Introducing Update Core 2K23 R4 Preview for WebUI Harmony:
 * New UI Preview (Unstable)
 
@@ -12,7 +13,6 @@ Web User Interface for Donut System
 * Fixed known bugs
 * Security Checks done
 
->>>>>>> Stashed changes
 ### Introducing Donut WebUI Harmony 2K23 R3:
 * Final Stable Build
 * System Panel for GPU details
