@@ -3,8 +3,20 @@ Web User Interface for Donut System
 
 ## Changelog:
 
+
+### Introducing Core 2K23 R4 Update for WebUI Harmony:
+* Update DWUI Apps, with new UI
+* * Clock App will not receive updates on it's UI
+
+### Introducing Beta 2 for WebUI 2K23 R4
+* Updated App Environment
+
+### Introducing Update Core 2K23 R4 Preview for WebUI Harmony:
+* New UI Preview (Unstable)
+
 ### Introducing Update 2 for Donut WebUI Harmony 2K23 R3:
 * Fixed known bugs
+
 
 ### Introducing Update 1 for Donut WebUI Harmony 2K23 R3:
 * Fixed known bugs
