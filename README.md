@@ -3,6 +3,9 @@ Web User Interface for Donut System
 
 ## Changelog:
 
+### Introducing DonutWebUI Pandalam 2K23 R4:
+* New game included
+* New Navbar with icons
 
 ### Introducing Core 2K23 R4 Update for WebUI Harmony:
 * Update DWUI Apps, with new UI
