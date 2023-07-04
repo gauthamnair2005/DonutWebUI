@@ -3,6 +3,9 @@ Web User Interface for Donut System
 
 ## Changelog:
 
+## Critical Update for WebUI Pandalam 2K23 R4:
+* Fixed Desktop Bug
+
 ### Introducing DonutWebUI Pandalam 2K23 R4:
 * New game included
 * New Navbar with icons
