@@ -5,6 +5,8 @@ Web User Interface for Donut System
 
 ## Critical Update for WebUI Pandalam 2K23 R4:
 * Fixed Desktop Bug
+* Fixed Games App
+* Optimized Transparency
 
 ### Introducing DonutWebUI Pandalam 2K23 R4:
 * New game included
