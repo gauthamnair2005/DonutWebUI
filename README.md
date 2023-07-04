@@ -12,7 +12,7 @@ Web User Interface for Donut System
 
 ### Introducing Core 2K23 R4 Update for WebUI Harmony:
 * Update DWUI Apps, with new UI
-* * Clock App will not receive updates on it's UI
+* Games App will not receive updates on it's UI
 
 ### Introducing Beta 2 for WebUI 2K23 R4
 * Updated App Environment
