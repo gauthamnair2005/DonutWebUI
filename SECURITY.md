@@ -5,7 +5,7 @@
 | Version   | Supported          |
 | --------- | ------------------ |
 | 2K23 R5   | :white_check_mark: |
-| 2K23 R4   | :white_check_mark: |
+| 2K23 R4   | :x:                |
 | 2K23 R3   | :x:                |
 | 2K23 R2   | :x:                |
 | 2K23      | :x:                |
