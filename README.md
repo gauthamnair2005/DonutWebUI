@@ -3,7 +3,11 @@ Web User Interface for Donut System
 
 ## Changelog:
 
-## Critical Update for WebUI Pandalam 2K23 R4:
+### Introducing 2K23 R5 Core Update for DonutWebUI:
+* Fixed many bugs
+* Introducing calculator
+
+### Critical Update for WebUI Pandalam 2K23 R4:
 * Fixed Desktop Bug
 * Fixed Games App
 * Optimized Transparency
