@@ -3,6 +3,10 @@ Web User Interface for Donut System
 
 ## Changelog:
 
+### Introducing DonutWebUI Bangalore 2K23 R5:
+* Fixed many bugs
+* Clock App
+
 ### Introducing DonutWebUI Munnar 2K23 R5:
 * Fixed many bugs
 * Tooltip
