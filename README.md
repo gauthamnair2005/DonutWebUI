@@ -3,6 +3,9 @@ Web User Interface for Donut System
 
 ## Changelog:
 
+### Introducing DonutWebUI Velocity 2K23 R5;
+* Security Update in browser, DonutVM and games
+
 ### Introducing DonutWebUI Bangalore 2K23 R5:
 * Fixed many bugs
 * Clock App
