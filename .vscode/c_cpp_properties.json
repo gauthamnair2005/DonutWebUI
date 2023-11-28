@@ -3,17 +3,19 @@
         {
             "name": "Win32",
             "includePath": [
-                "C:/**"
+                "C:/**",
+                "C:/*",
+                "C:/Program Files/MINGW/include/*"
             ],
             "defines": [
                 "_DEBUG",
                 "UNICODE",
                 "_UNICODE"
             ],
-            "compilerPath": "cl.exe",
-            "cStandard": "c17",
-            "cppStandard": "c++17",
-            "intelliSenseMode": "windows-msvc-x64"
+            "compilerPath": "C:/Program Files/MINGW/bin/gcc.exe",
+            "cStandard": "c23",
+            "cppStandard": "c++23",
+            "intelliSenseMode": "linux-gcc-x64"
         }
     ],
     "version": 4
