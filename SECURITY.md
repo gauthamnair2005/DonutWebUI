@@ -4,7 +4,8 @@
 
 | Version   | Supported          |
 | --------- | ------------------ |
-| 2K23 R6   | ⚙️                 |
+| 2K24     |  ⚙️              |
+| 2K23 R6   | Abandoned                 |
 | 2K23 R5   | :white_check_mark: |
 | 2K23 R4   | :x:                |
 | 2K23 R3   | :x:                |

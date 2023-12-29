@@ -3,6 +3,9 @@ Web User Interface for Donut System
 
 ## Changelog:
 
+### Introducing 2K24 Core Base System Update:
+* Completely updated and enhanced system, designed for 2024 (More features coming from January 2024)
+
 ### Introducing DonutWebUI Velocity 2K23 R5:
 * Security Update in browser, DonutVM and games
 
